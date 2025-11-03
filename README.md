@@ -8,9 +8,9 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 - Enable multi-row bookmarks toolbar
 - Auto-hide toolbar (shows on hover)
 
-**[⬇️ Download userChrome.css](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/latest/download/userChrome.css)**
+**[⬇️ Download userChrome.css](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/userChrome.css)**
 
-*Right-click → Save Link As if your browser tries to open it*
+**[⬇️Download Colorful Folder Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/colorful-folder-icon-set.zip)**
 
 ## Setup Instructions
 
