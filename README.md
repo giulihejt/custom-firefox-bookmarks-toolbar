@@ -49,15 +49,20 @@
 └── chrome/
     ├── userChrome.css
     └── icons/
-        ├── mail.svg
-        ├── youtube.png
-        └── github.svg
+        ├── tools.svg
+        ├── projects.png
+        └── games.svg
 </code></pre>
   </li>
-  <li>Update bookmark labels and URLs in the CSS to match your folder and icon names. The format should look like: 
-  <pre><code>.bookmark-item[label=<strong>"Mail"</strong>] {  list-style: url("./icons/<strong>mail.svg</strong>") !important; }
-.bookmark-item[label=<strong>"Youtube"</strong>] {  list-style: url("./icons/<strong>youtube.png</strong>") !important; }
-.bookmark-item[label=<strong>"Github"</strong>] {  list-style: url("./icons/<strong>github.svg</strong>") !important; }</code></pre>
+  <li>Update bookmark labels and URLs in the CSS to match your folder and icon names.<br>
+    <ul>
+      <li>The <b>.bookmark-item</b> label should match the name of your bookmark folder.</li>
+      <li>The <b>list-style: url</b> path should lead to the icon image file you would like to pair with the bookmark.</li>
+      <li>The format should look like:</li>
+    </ul>
+    <pre><code>.bookmark-item[label=<strong>"Tools"</strong>] {  list-style: url("./icons/<strong>tools.svg</strong>") !important; }
+.bookmark-item[label=<strong>"Projects"</strong>] {  list-style: url("./icons/<strong>project.png</strong>") !important; }
+.bookmark-item[label=<strong>"Games"</strong>] {  list-style: url("./icons/<strong>games.svg</strong>") !important; }</code></pre>
 </li>
   <li>Save your changes to <code>userChrome.css</code> and restart Firefox to apply the changes!</li>
 </ol>
