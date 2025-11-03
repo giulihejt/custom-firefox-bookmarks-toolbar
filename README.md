@@ -1,4 +1,4 @@
-<h1>Firefox Custom Bookmark Icons</h1>
+<h1>Custom Firefox Bookmarks Toolbar</h1>
 <p>A simple guide and userChrome.css template for customizing your Firefox bookmarks toolbar.</p>
 <ul>
   <li>Add custom icons to bookmark folders</li>
