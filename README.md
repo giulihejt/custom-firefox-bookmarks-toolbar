@@ -8,7 +8,7 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 - Enable multi-row bookmarks toolbar
 - Auto-hide toolbar (shows on hover)
 
-**[⬇️ Download userChrome.css](https://github.com/giulihejt/firefox-custom-bookmark-icons/releases/latest/download/userChrome.css)**
+**[⬇️ Download userChrome.css](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/latest/download/userChrome.css)**
 
 *Right-click → Save Link As if your browser tries to open it*
 
@@ -23,6 +23,7 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
    toolkit.legacyUserProfileCustomizations.stylesheets
 ```
    Set it to **true**.
+   
 
 2. In the address bar, go to:
 ```
@@ -49,6 +50,7 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
      - **SVG** - Best choice (scalable, sharp at any size, small file size).
      - **PNG** - Good for raster images (use 32x32px or larger, then let CSS scale down).
 
+
 5. Download the attached `userChrome.css` file (or create your own) and copy it into the `chrome` folder. Your folder structure should look like this:
 ```
    firefox-profile/
@@ -61,6 +63,7 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 ```
 
 6. Review the optional customizations in the file. To disable a style, either delete it or comment it out by wrapping it in `/* */`. Keep and modify the ones you want to apply.
+
 
 7. Update bookmark labels and URLs in the CSS to match your folder and icon names.
    - The `.bookmark-item` label should match the name of your bookmark folder.
