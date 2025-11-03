@@ -67,7 +67,7 @@
 
 #PlacesToolbarItems > .bookmark-item {
   padding: 3px 5px !important;
-  margin: 0 2px !important;
+  margin: 1 2px !important;
 }
 
 
@@ -85,33 +85,46 @@
 #PlacesToolbarItems {
   display: flex !important;
   flex-wrap: wrap !important;
+  overflow: visible !important;
 }
+
+#PlacesToolbar {
+  height: auto !important;
+}
+
+#PersonalToolbar {
+  max-height: none !important;
+  height: auto !important;
+}
+
 
 /* Auto-hide toolbar (shows on hover) */
 #PersonalToolbar {
-  margin-top: -40px !important;
-  transition: margin-top 0.3s ease !important;
+  opacity: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out !important;
 }
-
 #navigator-toolbox:hover > #PersonalToolbar {
-  margin-top: 0 !important;
+  opacity: 1 !important;
+  max-height: 160px !important;
 }
 
 
 /* ========================================
-   📁 CUSTOM BOOKMARK FOLDER ICONS
+   📁 CUSTOM BOOKMARK ICONS
    ======================================== */
-/* Replace label="FolderName" with your folder name
+/* Replace label="BookmarkName" with your bookmark name
    Replace url("./icons/filename.svg") with your icon filename
    Example: .bookmark-item[container="true"][label="Work"] { list-style: url("./icons/work.svg") !important; } */
 
-.bookmark-item[container="true"][label="F0"] { list-style: url("./icons/F0.svg") !important; }
-.bookmark-item[container="true"][label="F1"] { list-style: url("./icons/F1.svg") !important; }
-.bookmark-item[container="true"][label="F2"] { list-style: url("./icons/F2.svg") !important; }
-.bookmark-item[container="true"][label="F3"] { list-style: url("./icons/F3.svg") !important; }
-.bookmark-item[container="true"][label="F4"] { list-style: url("./icons/F4.svg") !important; }
-.bookmark-item[container="true"][label="F5"] { list-style: url("./icons/F5.svg") !important; }
-.bookmark-item[container="true"][label="F6"] { list-style: url("./icons/F6.svg") !important; }
-.bookmark-item[container="true"][label="F7"] { list-style: url("./icons/F7.svg") !important; }
-.bookmark-item[container="true"][label="F8"] { list-style: url("./icons/F8.svg") !important; }
-.bookmark-item[container="true"][label="F9"] { list-style: url("./icons/F9.svg") !important; }
+.bookmark-item[label="F0"] { list-style: url("./icons/F0.svg") !important; }
+.bookmark-item[label="F1"] { list-style: url("./icons/F1.svg") !important; }
+.bookmark-item[label="F2"] { list-style: url("./icons/F2.svg") !important; }
+.bookmark-item[label="F3"] { list-style: url("./icons/F3.svg") !important; }
+.bookmark-item[label="F4"] { list-style: url("./icons/F4.svg") !important; }
+.bookmark-item[label="F5"] { list-style: url("./icons/F5.svg") !important; }
+.bookmark-item[label="F6"] { list-style: url("./icons/F6.svg") !important; }
+.bookmark-item[label="F7"] { list-style: url("./icons/F7.svg") !important; }
+.bookmark-item[label="F8"] { list-style: url("./icons/F8.svg") !important; }
+.bookmark-item[label="F9"] { list-style: url("./icons/F9.svg") !important; }
