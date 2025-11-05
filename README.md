@@ -10,9 +10,23 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 
 **[⬇️ Download userChrome.css](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/userChrome.css)**
 
-**[⬇️Download Colorful Folder Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/colorful-folder-icon-set.zip)**
+**[⬇️ Download Colorful Folder Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/colorful-folder-icon-set.zip)**
 
-## Setup Instructions
+**[⬇️ Download White Minimal Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/white-minimal-icon-set.zip)**
+
+<details>
+<summary><h3>Before & After</h3></summary>
+Before:
+   <img width="956" height="471" alt="image" src="https://github.com/user-attachments/assets/a247e701-e117-4631-8e2d-2b0c7ee214f6" />
+   
+After:
+   
+
+</details>
+
+
+<details>   
+<summary><h3>Setup Instructions</h3></summary>
 
 1. In the Firefox address bar, go to:
 ```
@@ -76,3 +90,4 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 ```
 
 8. Save your changes to `userChrome.css` and restart Firefox to apply the changes!
+</details>
