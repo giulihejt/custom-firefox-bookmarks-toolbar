@@ -8,27 +8,32 @@ A simple guide and userChrome.css template for customizing your Firefox bookmark
 - Enable multi-row bookmarks toolbar
 - Auto-hide toolbar (shows on hover)
 
+<details>
+   <summary><h3>Downloads</h2></summary>
+   
 **[⬇️ Download userChrome.css](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/userChrome.css)**
 
 **[⬇️ Download Colorful Folder Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/colorful-folder-icon-set.zip)**
 
 **[⬇️ Download White Minimal Icon Set](https://github.com/giulihejt/custom-firefox-bookmarks-toolbar/releases/download/v1.0.0/white-minimal-icon-set.zip)**
-
-<details>
-<summary><h3>Before/After Images</h3></summary>
-Before:<br>
-   <img width="950" height="471" alt="Bookmarks toolbar before." src="https://github.com/user-attachments/assets/a247e701-e117-4631-8e2d-2b0c7ee214f6" />
-   
-After (with labels):<br>
-   <img width="950" height="215" alt="Bookmarks toolbar after, with labels." src="https://github.com/user-attachments/assets/ed3391f3-306b-44a0-846c-1942d351d2d7" />
-
-After (without labels):<br>
-   <img width="950" height="176" alt="Bookmarks toolbar after, without labels." src="https://github.com/user-attachments/assets/d9669ded-bd62-4239-8e26-3030ed5cb65a" />
 </details>
 
+<h2>Before & Afters</h2>
 
-<details>   
-<summary><h3>Setup Instructions</h3></summary>
+Video:<br>
+[![Watch the video](https://img.youtube.com/vi/_BYP9y4QWio/0.jpg)](https://youtu.be/_BYP9y4QWio)
+
+Before:<br>
+   <img width="750" alt="Bookmarks toolbar before." src="https://github.com/user-attachments/assets/a247e701-e117-4631-8e2d-2b0c7ee214f6" />
+   
+After (with labels):<br>
+   <img width="750" alt="Bookmarks toolbar after, with labels." src="https://github.com/user-attachments/assets/1dc33c61-d084-49a5-9005-876c1fffae09" />
+
+After (without labels):<br>
+   <img width="750" alt="Bookmarks toolbar after, without labels." src="https://github.com/user-attachments/assets/d9669ded-bd62-4239-8e26-3030ed5cb65a" />
+<br>
+
+<h2>Setup Instructions</h2>
 
 1. In the Firefox address bar, go to:
 ```
@@ -92,4 +97,3 @@ After (without labels):<br>
 ```
 
 8. Save your changes to `userChrome.css` and restart Firefox to apply the changes!
-</details>
